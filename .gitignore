@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local runtime data (memory stores, persona adapters)
+_smoke_data/
+_persona_data/
+memory_data/
+*.faiss
+
+# Env / secrets
+.env
+*.key
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
