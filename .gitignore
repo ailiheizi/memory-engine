@@ -26,3 +26,5 @@ memory_data/
 .idea/
 .vscode/
 .DS_Store
+_trust_data/
+.omc/

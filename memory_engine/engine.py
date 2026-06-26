@@ -54,6 +54,10 @@ class MemoryEngine:
     def list_facts(self) -> list[dict]:
         return self.facts.list_facts()
 
+    def reinforce_fact(self, fact_id: int) -> bool:
+        """手动强化一条记忆(信任上升)。用于"这条记忆有用"的反馈。"""
+        return self.facts.reinforce(fact_id)
+
     # ---- 性格管理 (透传 PersonaManager) ----
 
     def create_persona(self, persona_id: str, examples: list[dict], desc: str = "", epochs: int = 10):
@@ -73,10 +77,14 @@ class MemoryEngine:
 
     # ---- 核心: 带记忆+性格回答 ----
 
-    def chat(self, user_msg: str, top_k: int = 5, temperature: float = 0.7, max_tokens: int = 512) -> dict:
-        """完整流水线。返回 {response, used_memory, used_style, latency_ms}。"""
-        # ① + ② RAG 召回 + 披露
-        disclosure = self.facts.build_disclosure(user_msg, top_k=top_k)
+    def chat(self, user_msg: str, top_k: int = 5, temperature: float = 0.7, max_tokens: int = 512,
+             reinforce: bool = True, min_trust: float = 0.0) -> dict:
+        """完整流水线。返回 {response, used_memory, used_style, latency_ms}。
+
+        reinforce=True: 被召回的记忆视为采用, 信任上升(Hermes 式强化)。
+        """
+        # ① + ② RAG 召回 + 信任加权 + 披露 (召回即强化)
+        disclosure = self.facts.build_disclosure(user_msg, top_k=top_k, min_trust=min_trust, reinforce=reinforce)
 
         # ③ 方案A: 性格风格示范
         style_demo = ""
