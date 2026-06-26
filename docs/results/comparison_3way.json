@@ -1,0 +1,23 @@
+{
+  "parametric": {
+    "direct_acc": 1.0,
+    "reform_acc": 0.75,
+    "avg_latency_ms": 3811.6490499999713,
+    "storage_mb": 4.58752,
+    "train_time_s": 99.29878807067871
+  },
+  "embedding": {
+    "direct_acc": 1.0,
+    "reform_acc": 0.75,
+    "avg_latency_ms": 104.24289999997427,
+    "storage_mb": 0.032768,
+    "write_time_s": 1.3869638442993164
+  },
+  "disclosure": {
+    "direct_acc": 0.75,
+    "reform_acc": 0.75,
+    "avg_latency_ms": 7391.707725000004,
+    "storage_mb": 0.000415802001953125,
+    "context_chars": 436
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "embedding": {
+    "direct": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "What is the user's name?",
+          "answer": "<think>\nOkay, the user asked, \"What is the user's name?\" based on the ",
+          "score": 2
+        },
+        {
+          "q": "What database does the user prefer?",
+          "answer": "<think>\nOkay, the user asked, \"What database does the user prefer?\" Le",
+          "score": 2
+        },
+        {
+          "q": "What is the user's pet?",
+          "answer": "<think>\nOkay, let me see. The user mentioned their cat is named Mochi.",
+          "score": 2
+        },
+        {
+          "q": "Where does the user live?",
+          "answer": "<think>\nOkay, the user asked where they live. Let me check the informa",
+          "score": 2
+        },
+        {
+          "q": "What editor does the user use?",
+          "answer": "<think>\nOkay, let's see. The user mentioned they use Neovim with a cus",
+          "score": 2
+        },
+        {
+          "q": "What is the user's OS?",
+          "answer": "<think>\nOkay, let me see. The user mentioned they run Arch Linux as th",
+          "score": 2
+        }
+      ]
+    },
+    "reformulated": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "How should I address this individual?",
+          "answer": "<think>\nOkay, the user wants to know how to address someone. Let me th",
+          "score": 2
+        },
+        {
+          "q": "Which relational store does this person reach",
+          "answer": "<think>\nOkay, let me try to figure out what the user is asking here. T",
+          "score": 2
+        },
+        {
+          "q": "Does this person keep any animals at home?",
+          "answer": "<think>\nOkay, let's see. The user mentioned they have a cat named Moch",
+          "score": 2
+        },
+        {
+          "q": "In which metropolitan area is this person bas",
+          "answer": "<think>\nOkay, let me see. The user mentioned that the person lives in ",
+          "score": 2
+        },
+        {
+          "q": "What tool does this person write code in?",
+          "answer": "<think>\nOkay, let's see. The user mentioned they use Go and Python. So",
+          "score": 2
+        },
+        {
+          "q": "What operating system powers their daily mach",
+          "answer": "<think>\nOkay, let me see. The user is asking what operating system pow",
+          "score": 2
+        }
+      ]
+    },
+    "multihop": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "Given the languages the user knows, what kind",
+          "answer": "<think>\nOkay, let's see. The user is building a personal memory system",
+          "score": 2
+        },
+        {
+          "q": "The user's mentor taught them a language. Is ",
+          "answer": "<think>\nOkay, let me try to figure this out. The user mentioned their ",
+          "score": 2
+        },
+        {
+          "q": "Could the user run large GPU training jobs at",
+          "answer": "<think>\nOkay, so the user has a home server with an AMD RX 5700 XT GPU",
+          "score": 2
+        },
+        {
+          "q": "Based on their stated dream and current side ",
+          "answer": "<think>\nOkay, let's see. The user has two main projects: building a pe",
+          "score": 2
+        },
+        {
+          "q": "Would the user enjoy a job requiring lots of ",
+          "answer": "<think>\nOkay, let's see. The user has some specific preferences: they ",
+          "score": 2
+        },
+        {
+          "q": "The user has a relative in healthcare. Where ",
+          "answer": "<think>\nOkay, let me try to figure this out. The user mentioned their ",
+          "score": 2
+        }
+      ]
+    },
+    "distractor": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "What does the user's FRONTEND colleague use?",
+          "answer": "<think>\nOkay, let me see. The user mentioned that Zhang Min is the fro",
+          "score": 2
+        },
+        {
+          "q": "Who taught the user Go - their manager or the",
+          "answer": "<think>\nOkay, let me try to figure this out. The user mentioned that t",
+          "score": 2
+        },
+        {
+          "q": "Does the user have a cofounder?",
+          "answer": "<think>\nOkay, let me check the information provided. The user says the",
+          "score": 2
+        },
+        {
+          "q": "What did the user work on in 2022, specifical",
+          "answer": "<think>\nOkay, let's see. The user is asking what they worked on in 202",
+          "score": 2
+        },
+        {
+          "q": "Is the user's sister a teacher?",
+          "answer": "<think>\nOkay, let me see. The user mentioned their sister Lin Fang is ",
+          "score": 2
+        },
+        {
+          "q": "What car does the user drive?",
+          "answer": "<think>\nOkay, let's see. The user mentioned they run Arch Linux as the",
+          "score": 2
+        }
+      ]
+    }
+  },
+  "disclosure": {
+    "direct": {
+      "avg_score": 1.6666666666666667,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "details": [
+        {
+          "q": "What is the user's name?",
+          "answer": "<think>\nOkay, let me see. The user asked, \"What is the user's name?\" a",
+          "score": 2
+        },
+        {
+          "q": "What database does the user prefer?",
+          "answer": "<think>\nOkay, let me see. The user asked what database they prefer. I ",
+          "score": 2
+        },
+        {
+          "q": "What is the user's pet?",
+          "answer": "<think>\nOkay, let me see. The user asked, \"What is the user's pet?\" I ",
+          "score": 2
+        },
+        {
+          "q": "Where does the user live?",
+          "answer": "<think>\nOkay, let me see. The user asked where they live. From the inf",
+          "score": 2
+        },
+        {
+          "q": "What editor does the user use?",
+          "answer": "<think>\nOkay, let me see. The user asked, \"What editor does the user u",
+          "score": 2
+        },
+        {
+          "q": "What is the user's OS?",
+          "answer": "<think>\nOkay, let me see. The user asked, \"What is the user's OS?\" I n",
+          "score": 0
+        }
+      ]
+    },
+    "reformulated": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "How should I address this individual?",
+          "answer": "<think>\nOkay, the user wants to know how to address someone. Let me ch",
+          "score": 2
+        },
+        {
+          "q": "Which relational store does this person reach",
+          "answer": "<think>\nOkay, let me see. The user is asking which relational store th",
+          "score": 2
+        },
+        {
+          "q": "Does this person keep any animals at home?",
+          "answer": "<think>\nOkay, let me see. The user asked if the person keeps any anima",
+          "score": 2
+        },
+        {
+          "q": "In which metropolitan area is this person bas",
+          "answer": "<think>\nOkay, let me try to figure out where Lin Wei is based. The use",
+          "score": 2
+        },
+        {
+          "q": "What tool does this person write code in?",
+          "answer": "<think>\nOkay, let me see. The user is asking what tool the person writ",
+          "score": 2
+        },
+        {
+          "q": "What operating system powers their daily mach",
+          "answer": "<think>\nOkay, let me see. The user asked what operating system powers ",
+          "score": 2
+        }
+      ]
+    },
+    "multihop": {
+      "avg_score": 2.0,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "details": [
+        {
+          "q": "Given the languages the user knows, what kind",
+          "answer": "<think>\nOkay, let me try to figure out what project Lin Wei is best su",
+          "score": 2
+        },
+        {
+          "q": "The user's mentor taught them a language. Is ",
+          "answer": "<think>\nOkay, let me try to figure this out. The user mentioned that t",
+          "score": 2
+        },
+        {
+          "q": "Could the user run large GPU training jobs at",
+          "answer": "<think>\nOkay, let me try to figure out how to answer this question: \"C",
+          "score": 2
+        },
+        {
+          "q": "Based on their stated dream and current side ",
+          "answer": "<think>\nOkay, let me try to figure out the answer based on all this in",
+          "score": 2
+        },
+        {
+          "q": "Would the user enjoy a job requiring lots of ",
+          "answer": "<think>\nOkay, let me see. The user is asking if they would enjoy a job",
+          "score": 2
+        },
+        {
+          "q": "The user has a relative in healthcare. Where ",
+          "answer": "<think>\nOkay, let me try to figure out where the user's relative works",
+          "score": 2
+        }
+      ]
+    },
+    "distractor": {
+      "avg_score": 1.6666666666666667,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        0,
+        2
+      ],
+      "details": [
+        {
+          "q": "What does the user's FRONTEND colleague use?",
+          "answer": "<think>\nOkay, let me see. The user mentioned that their frontend colle",
+          "score": 2
+        },
+        {
+          "q": "Who taught the user Go - their manager or the",
+          "answer": "<think>\nOkay, let me see. The user is asking who taught them Go. They ",
+          "score": 2
+        },
+        {
+          "q": "Does the user have a cofounder?",
+          "answer": "<think>\nOkay, let me see. The user mentioned that they don't have a co",
+          "score": 2
+        },
+        {
+          "q": "What did the user work on in 2022, specifical",
+          "answer": "<think>\nOkay, let me see. The user asked what they worked on in 2022 s",
+          "score": 2
+        },
+        {
+          "q": "Is the user's sister a teacher?",
+          "answer": "<think>\nOkay, let me check the information provided. The user mentione",
+          "score": 0
+        },
+        {
+          "q": "What car does the user drive?",
+          "answer": "<think>\nOkay, let me see. The user asked, \"What car does the user driv",
+          "score": 2
+        }
+      ]
+    }
+  }
+}

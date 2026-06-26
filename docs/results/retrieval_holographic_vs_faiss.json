@@ -1,0 +1,16 @@
+{
+  "holographic": {
+    "direct": 0.0,
+    "reformulated": 0.0,
+    "multihop": 0.0,
+    "distractor": 0.0
+  },
+  "faiss_bge": {
+    "direct": 1.0,
+    "reformulated": 0.6666666666666666,
+    "multihop": 0.6666666666666666,
+    "distractor": 0.8333333333333334
+  },
+  "holo_overall": 0.0,
+  "faiss_overall": 0.7916666666666666
+}
