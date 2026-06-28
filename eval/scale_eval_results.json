@@ -1,0 +1,304 @@
+{
+  "trust": {
+    "results": [
+      {
+        "type": "recent",
+        "q": "What database does the user prefer?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What is the user's current project?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions",
+          "GitHub"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What does the team use for CI/CD?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Jenkins"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What is the user learning this month?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "ClickHouse"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What does the user drink in the morning?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Docker"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What database does the user prefer?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "RecommendAI"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user's favorite color?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "blue"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user's current project?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What does the user prefer for morning drinks?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "lo-fi"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user learning?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "Who is the user's best friend?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "Xiao Li"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What is the user's shoe size?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "blue"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What does the user listen to while working?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "Who sits next to the user?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "lo-fi"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What is the user's sprint length?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What does the user read before bed?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Xiao Li"
+        ]
+      }
+    ],
+    "overall": 0.1875
+  },
+  "raw": {
+    "results": [
+      {
+        "type": "recent",
+        "q": "What database does the user prefer?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What is the user's current project?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions",
+          "GitHub"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What does the team use for CI/CD?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Jenkins"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What is the user learning this month?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "ClickHouse"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What does the user drink in the morning?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Docker"
+        ]
+      },
+      {
+        "type": "contradiction",
+        "q": "What database does the user prefer?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "RecommendAI"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user's favorite color?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "blue"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user's current project?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What does the user prefer for morning drinks?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "lo-fi"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "What is the user learning?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "frequent",
+        "q": "Who is the user's best friend?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "Xiao Li"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What is the user's shoe size?",
+        "score": 1.0,
+        "anti_hit": false,
+        "gold": [
+          "blue"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What does the user listen to while working?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub Actions"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "Who sits next to the user?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "lo-fi"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What is the user's sprint length?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "GitHub"
+        ]
+      },
+      {
+        "type": "cold",
+        "q": "What does the user read before bed?",
+        "score": 0.0,
+        "anti_hit": false,
+        "gold": [
+          "Xiao Li"
+        ]
+      }
+    ],
+    "overall": 0.1875
+  },
+  "n_memories": 500,
+  "n_contradictions": 30
+}

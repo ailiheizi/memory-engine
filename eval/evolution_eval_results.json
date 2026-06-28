@@ -1,0 +1,377 @@
+{
+  "trust": {
+    "checkpoints": [
+      {
+        "turn": 20,
+        "q": "What is the user's name and job?",
+        "gold": [
+          "chen lei",
+          "product manager"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL.",
+          "Chen Lei works at MediFlow, a health-tec"
+        ]
+      },
+      {
+        "turn": 40,
+        "q": "What pet does the user have?",
+        "gold": [
+          "dou dou",
+          "golden retriever"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Chen Lei has a golden retriever named Do",
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL."
+        ]
+      },
+      {
+        "turn": 60,
+        "q": "What cloud provider does the user's company use?",
+        "gold": [
+          "aliyun"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "MediFlow uses AWS.",
+          "MediFlow switched from AWS to Aliyun (re"
+        ]
+      },
+      {
+        "turn": 80,
+        "q": "What car does the user drive now?",
+        "gold": [
+          "byd",
+          "seal"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Chen Lei drives a Tesla Model 3.",
+          "Chen Lei now drives a BYD Seal (sold the",
+          "The user's name is Chen Lei, a product m"
+        ]
+      },
+      {
+        "turn": 100,
+        "q": "What is Li Jing's current job?",
+        "gold": [
+          "edtech",
+          "startup"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Li Jing left teaching, joined an edtech ",
+          "Chen Lei's wife Li Jing is a middle scho",
+          "The user's name is Chen Lei, a product m"
+        ]
+      },
+      {
+        "turn": 120,
+        "q": "Name all the user's pets.",
+        "gold": [
+          "dou dou",
+          "xiao bai"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Dou Dou had puppies, keeping one named X",
+          "Chen Lei has a golden retriever named Do",
+          "The user's name is Chen Lei, a product m"
+        ]
+      },
+      {
+        "turn": 140,
+        "q": "What programming languages does the user know?",
+        "gold": [
+          "python",
+          "sql",
+          "go"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL.",
+          "Chen Lei is learning Go for microservice"
+        ]
+      },
+      {
+        "turn": 160,
+        "q": "What is the user's commute like?",
+        "gold": [
+          "15 minutes",
+          "bike"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei's commute is 15 minutes by bike",
+          "MediFlow uses AWS."
+        ]
+      },
+      {
+        "turn": 180,
+        "q": "What is the user's dream/career goal?",
+        "gold": [
+          "startup",
+          "own"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei dreams of launching his own sta",
+          "Chen Lei is learning Go for microservice"
+        ]
+      },
+      {
+        "turn": 200,
+        "q": "What does MediFlow's product do now?",
+        "gold": [
+          "ai diagnosis",
+          "assistant"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "MediFlow's main product is a patient sch",
+          "MediFlow uses AWS.",
+          "MediFlow pivoted to AI diagnosis assista"
+        ]
+      }
+    ],
+    "avg_score": 1.0,
+    "scores_by_turn": [
+      [
+        20,
+        1.0
+      ],
+      [
+        40,
+        1.0
+      ],
+      [
+        60,
+        1.0
+      ],
+      [
+        80,
+        1.0
+      ],
+      [
+        100,
+        1.0
+      ],
+      [
+        120,
+        1.0
+      ],
+      [
+        140,
+        1.0
+      ],
+      [
+        160,
+        1.0
+      ],
+      [
+        180,
+        1.0
+      ],
+      [
+        200,
+        1.0
+      ]
+    ]
+  },
+  "raw": {
+    "checkpoints": [
+      {
+        "turn": 20,
+        "q": "What is the user's name and job?",
+        "gold": [
+          "chen lei",
+          "product manager"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL.",
+          "Chen Lei works at MediFlow, a health-tec"
+        ]
+      },
+      {
+        "turn": 40,
+        "q": "What pet does the user have?",
+        "gold": [
+          "dou dou",
+          "golden retriever"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Chen Lei has a golden retriever named Do",
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL."
+        ]
+      },
+      {
+        "turn": 60,
+        "q": "What cloud provider does the user's company use?",
+        "gold": [
+          "aliyun"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "MediFlow uses AWS.",
+          "The user's name is Chen Lei, a product m",
+          "MediFlow switched from AWS to Aliyun (re"
+        ]
+      },
+      {
+        "turn": 80,
+        "q": "What car does the user drive now?",
+        "gold": [
+          "byd",
+          "seal"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Chen Lei now drives a BYD Seal (sold the",
+          "Chen Lei drives a Tesla Model 3.",
+          "The user's name is Chen Lei, a product m"
+        ]
+      },
+      {
+        "turn": 100,
+        "q": "What is Li Jing's current job?",
+        "gold": [
+          "edtech",
+          "startup"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Li Jing left teaching, joined an edtech ",
+          "Chen Lei's wife Li Jing is a middle scho",
+          "Chen Lei is learning Go for microservice"
+        ]
+      },
+      {
+        "turn": 120,
+        "q": "Name all the user's pets.",
+        "gold": [
+          "dou dou",
+          "xiao bai"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Dou Dou had puppies, keeping one named X",
+          "Chen Lei has a golden retriever named Do",
+          "The user's name is Chen Lei, a product m"
+        ]
+      },
+      {
+        "turn": 140,
+        "q": "What programming languages does the user know?",
+        "gold": [
+          "python",
+          "sql",
+          "go"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei uses Python and SQL.",
+          "Chen Lei is learning Go for microservice"
+        ]
+      },
+      {
+        "turn": 160,
+        "q": "What is the user's commute like?",
+        "gold": [
+          "15 minutes",
+          "bike"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "Chen Lei's commute is 15 minutes by bike",
+          "The user's name is Chen Lei, a product m",
+          "MediFlow team standup is at 10am daily."
+        ]
+      },
+      {
+        "turn": 180,
+        "q": "What is the user's dream/career goal?",
+        "gold": [
+          "startup",
+          "own"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "The user's name is Chen Lei, a product m",
+          "Chen Lei dreams of launching his own sta",
+          "Chen Lei is learning Go for microservice"
+        ]
+      },
+      {
+        "turn": 200,
+        "q": "What does MediFlow's product do now?",
+        "gold": [
+          "ai diagnosis",
+          "assistant"
+        ],
+        "score": 1.0,
+        "recalled": [
+          "MediFlow's main product is a patient sch",
+          "MediFlow uses AWS.",
+          "MediFlow pivoted to AI diagnosis assista"
+        ]
+      }
+    ],
+    "avg_score": 1.0,
+    "scores_by_turn": [
+      [
+        20,
+        1.0
+      ],
+      [
+        40,
+        1.0
+      ],
+      [
+        60,
+        1.0
+      ],
+      [
+        80,
+        1.0
+      ],
+      [
+        100,
+        1.0
+      ],
+      [
+        120,
+        1.0
+      ],
+      [
+        140,
+        1.0
+      ],
+      [
+        160,
+        1.0
+      ],
+      [
+        180,
+        1.0
+      ],
+      [
+        200,
+        1.0
+      ]
+    ]
+  },
+  "avg_diff": 0.0
+}

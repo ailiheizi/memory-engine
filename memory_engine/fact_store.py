@@ -217,11 +217,18 @@ class FactStore:
                     eff = self._effective_trust(f, now)
                     if eff < min_trust:
                         continue
-                    final = float(score) * eff  # 语义 × 信任
+                    # 被 supersede 的记忆额外惩罚(矛盾检测标记的)
+                    if f.get("superseded_by"):
+                        eff *= 0.1
+                    # 加法加权: 语义决定大局, trust 只在相近时加分(不会压制高语义)
+                    final = float(score) + 0.1 * eff
                     results[f["id"]] = {**f, "score": float(score), "eff_trust": eff, "final": final}
 
-        # 3. 按最终分排序, 取 top_k (pinned final=999 自然排前)
-        ranked = sorted(results.values(), key=lambda r: r.get("final", 0), reverse=True)
+        # 3. 按最终分排序, 取 top_k (pinned final=999 自然排前, superseded 排最后)
+        ranked = sorted(results.values(), key=lambda r: (
+            0 if r.get("superseded_by") else 1,  # superseded 排后面
+            r.get("final", 0),
+        ), reverse=True)
         out = ranked[:max(top_k, sum(1 for r in ranked if r.get("pinned")))]
 
         # 4. 可选强化

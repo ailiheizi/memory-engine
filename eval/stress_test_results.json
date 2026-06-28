@@ -1,0 +1,18 @@
+{
+  "base_false_positives": 0,
+  "update_detection_rate": 0.7333333333333333,
+  "compatible_false_positives": 0,
+  "total_false_positive_rate": 0.0,
+  "health": {
+    "healthy": true,
+    "alerts": []
+  },
+  "trust_distribution": {
+    "0-0.1": 0,
+    "0.1-0.3": 13,
+    "0.3-0.5": 0,
+    "0.5": 92,
+    ">0.5": 0
+  },
+  "verdict": "PASS"
+}

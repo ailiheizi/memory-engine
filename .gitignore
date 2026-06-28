@@ -28,3 +28,17 @@ memory_data/
 .DS_Store
 _trust_data/
 .omc/
+_contra_persona/
+_mao_persona/
+_mao_rag/
+_contra_rag/
+_evo_raw/
+_evo_trust/
+_conflict_test/
+_dbg_scale/
+_fb_test/
+_health_test/
+_part_test/
+_scale_raw/
+_scale_trust/
+_stress_test/
