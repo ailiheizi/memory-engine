@@ -21,6 +21,7 @@ from .fact_store import FactStore
 from .conflict_detector import ConflictDetector
 from .usage_feedback import UsageFeedback
 from .health_monitor import MemoryHealthMonitor
+from .consolidator import SleepConsolidator
 from .persona_manager import PersonaManager
 from .deepseek_client import DeepSeekClient
 
@@ -52,6 +53,7 @@ class MemoryEngine:
         self.conflict = ConflictDetector(self.facts, deepseek=self.llm)
         self.feedback = UsageFeedback(self.facts)
         self.health = MemoryHealthMonitor(self.facts)
+        self.consolidator = SleepConsolidator(self.facts, deepseek=self.llm)
         self.enable_persona = enable_persona
         self.persona = PersonaManager(base_model=base_model, personas_dir=f"{store_dir}/personas") if enable_persona else None
 
@@ -97,6 +99,20 @@ class MemoryEngine:
     def suggest_cleanup(self) -> list[dict]:
         """建议清理的低质量记忆。"""
         return self.health.suggest_cleanup()
+
+    def consolidate(self, mode: str = "full", dry_run: bool = False) -> dict:
+        """睡眠巩固: 手动触发离线记忆整理。
+
+        mode:
+            "cleanup"  — 删除 superseded + 极低trust 垃圾
+            "evict"    — 超容量时淘汰最低trust记忆
+            "merge"    — 合并高相似冗余记忆(需DeepSeek)
+            "reweight" — 多维重算trust(recency+frequency+base)
+            "full"     — 以上全做(完整一次"睡眠")
+
+        dry_run: True=只报告不执行
+        """
+        return self.consolidator.consolidate(mode=mode, dry_run=dry_run)
 
     # ---- 性格管理 (透传 PersonaManager) ----
 

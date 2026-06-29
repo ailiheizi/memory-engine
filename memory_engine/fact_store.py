@@ -97,16 +97,23 @@ class FactStore:
 
     # ---- 增删改 (即时生效) ----
 
-    def add(self, text: str, pinned: bool = False) -> int:
+    def add(self, text: str, pinned: bool = False, metadata: dict | None = None) -> int:
         """新增一条事实。返回 fact id。
 
-        若已存在完全相同的文本, 不重复添加, 返回已有 id(并按需更新 pinned)。
+        Args:
+            text: 事实文本（用于语义检索）
+            pinned: 是否为热记忆（始终召回）
+            metadata: 可选结构化附加数据（不参与检索，但随结果返回）
+
+        若已存在完全相同的文本, 不重复添加, 返回已有 id(并按需更新 pinned/metadata)。
         """
         text = text.strip()
         for f in self.facts:
             if f["text"].strip() == text:
                 if pinned and not f.get("pinned"):
                     f["pinned"] = True
+                if metadata and metadata != f.get("metadata"):
+                    f["metadata"] = metadata
                     self._save()
                 logger.info(f"Fact already exists (#{f['id']}), skip add")
                 return f["id"]
@@ -114,6 +121,8 @@ class FactStore:
             "id": self._next_id, "text": text, "pinned": pinned, "ts": int(time.time()),
             "trust": DEFAULT_TRUST, "uses": 0, "last_used": int(time.time()),
         }
+        if metadata:
+            fact["metadata"] = metadata
         self.facts.append(fact)
         self._next_id += 1
         self._save()

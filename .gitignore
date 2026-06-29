@@ -42,3 +42,6 @@ _part_test/
 _scale_raw/
 _scale_trust/
 _stress_test/
+
+# 所有测试运行临时目录
+_*/

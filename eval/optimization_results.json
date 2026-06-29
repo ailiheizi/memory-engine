@@ -1,0 +1,16 @@
+{
+  "qe_overall": 0.8076923076923077,
+  "qe_types": {
+    "distractor": 1.0,
+    "temporal": 0.5,
+    "multihop": 0.5,
+    "reformulated": 1.0
+  },
+  "full_overall": 0.8846153846153846,
+  "full_types": {
+    "distractor": 1.0,
+    "temporal": 0.5,
+    "multihop": 1.0,
+    "reformulated": 1.0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scale": 100,
+  "n_queries": 25,
+  "cluster_build": {
+    "status": "built",
+    "n_clusters": 5,
+    "cluster_sizes": [
+      18,
+      22,
+      18,
+      20,
+      22
+    ],
+    "avg_size": 20.0
+  },
+  "runs": [
+    {
+      "name": "flat (FAISS)",
+      "top1": 1.0,
+      "p5": 0.92,
+      "lat_median": 398.3435000118334,
+      "lat_mean": 647.2933640016709,
+      "lat_p90": 1676.8981000059284
+    },
+    {
+      "name": "cluster (as-impl)",
+      "top1": 1.0,
+      "p5": 0.9359999999999999,
+      "lat_median": 4604.691600019578,
+      "lat_mean": 4801.840656000422,
+      "lat_p90": 8122.849799983669
+    },
+    {
+      "name": "cluster-opt (precomp)",
+      "top1": 1.0,
+      "p5": 0.9359999999999999,
+      "lat_median": 174.619099998381,
+      "lat_mean": 292.6050879980903,
+      "lat_p90": 879.2606999923009
+    }
+  ]
+}

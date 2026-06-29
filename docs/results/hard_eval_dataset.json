@@ -1,0 +1,309 @@
+{
+  "facts": [
+    "Zhang Wei is a backend engineer.",
+    "Zhang Wei primarily codes in Go.",
+    "Zhang Wei is based in Chengdu.",
+    "Zhang Wei works on the payment team.",
+    "Zhang Wei joined the company in 2020.",
+    "Li Ming is a frontend engineer.",
+    "Li Ming primarily codes in React.",
+    "Li Ming is based in Beijing.",
+    "Li Ming works on the growth team.",
+    "Li Ming joined the company in 2021.",
+    "Wang Fang is a data engineer.",
+    "Wang Fang primarily codes in Python.",
+    "Wang Fang is based in Shanghai.",
+    "Wang Fang works on the analytics team.",
+    "Wang Fang joined the company in 2022.",
+    "Liu Yang is a mobile engineer.",
+    "Liu Yang primarily codes in Swift.",
+    "Liu Yang is based in Shenzhen.",
+    "Liu Yang works on the app team.",
+    "Liu Yang joined the company in 2023.",
+    "Chen Hao is a devops engineer.",
+    "Chen Hao primarily codes in Rust.",
+    "Chen Hao is based in Hangzhou.",
+    "Chen Hao works on the infra team.",
+    "Chen Hao joined the company in 2024.",
+    "Zhao Lei is a ML engineer.",
+    "Zhao Lei primarily codes in PyTorch.",
+    "Zhao Lei is based in Guangzhou.",
+    "Zhao Lei works on the AI team.",
+    "Zhao Lei joined the company in 2020.",
+    "Sun Jie is a QA engineer.",
+    "Sun Jie primarily codes in Selenium.",
+    "Sun Jie is based in Wuhan.",
+    "Sun Jie works on the quality team.",
+    "Sun Jie joined the company in 2021.",
+    "Zhou Min is a design engineer.",
+    "Zhou Min primarily codes in Figma.",
+    "Zhou Min is based in Chengdu.",
+    "Zhou Min works on the UX team.",
+    "Zhou Min joined the company in 2022.",
+    "Wu Gang is a security engineer.",
+    "Wu Gang primarily codes in C++.",
+    "Wu Gang is based in Beijing.",
+    "Wu Gang works on the security team.",
+    "Wu Gang joined the company in 2023.",
+    "Xu Tao is a backend engineer.",
+    "Xu Tao primarily codes in Java.",
+    "Xu Tao is based in Shanghai.",
+    "Xu Tao works on the order team.",
+    "Xu Tao joined the company in 2024.",
+    "The user works at StartupA as an intern.",
+    "The user got promoted to junior engineer at StartupA.",
+    "The user left StartupA and joined BigCorp as senior engineer.",
+    "The user's salary was 10k per month.",
+    "The user's salary increased to 25k per month at BigCorp.",
+    "The user lived in a rented apartment downtown.",
+    "The user bought a house in the suburbs.",
+    "The user's manager is Director Sun.",
+    "Director Sun previously led the cloud division.",
+    "The cloud division was acquired by Oracle in 2024.",
+    "The user's mentor is Professor Lin.",
+    "Professor Lin teaches at Tsinghua University.",
+    "Tsinghua University is located in Beijing.",
+    "The user is allergic to peanuts and shellfish.",
+    "The user practices intermittent fasting, eating only between noon and 8pm.",
+    "The user has a phobia of public speaking.",
+    "The user is fluent in Mandarin, English, and basic Japanese.",
+    "Random note 0: a fact about weather number 0 that is unrelated to queries.",
+    "Random note 1: a fact about movie number 1 that is unrelated to queries.",
+    "Random note 2: a fact about recipe number 2 that is unrelated to queries.",
+    "Random note 3: a fact about stock number 3 that is unrelated to queries.",
+    "Random note 4: a fact about gadget number 4 that is unrelated to queries.",
+    "Random note 5: a fact about book number 5 that is unrelated to queries.",
+    "Random note 6: a fact about song number 6 that is unrelated to queries.",
+    "Random note 7: a fact about game number 7 that is unrelated to queries.",
+    "Random note 8: a fact about trip number 8 that is unrelated to queries.",
+    "Random note 9: a fact about news number 9 that is unrelated to queries.",
+    "Random note 10: a fact about weather number 10 that is unrelated to queries.",
+    "Random note 11: a fact about movie number 11 that is unrelated to queries.",
+    "Random note 12: a fact about recipe number 12 that is unrelated to queries.",
+    "Random note 13: a fact about stock number 13 that is unrelated to queries.",
+    "Random note 14: a fact about gadget number 14 that is unrelated to queries.",
+    "Random note 15: a fact about book number 15 that is unrelated to queries.",
+    "Random note 16: a fact about song number 16 that is unrelated to queries.",
+    "Random note 17: a fact about game number 17 that is unrelated to queries.",
+    "Random note 18: a fact about trip number 18 that is unrelated to queries.",
+    "Random note 19: a fact about news number 19 that is unrelated to queries.",
+    "Random note 20: a fact about weather number 20 that is unrelated to queries.",
+    "Random note 21: a fact about movie number 21 that is unrelated to queries.",
+    "Random note 22: a fact about recipe number 22 that is unrelated to queries.",
+    "Random note 23: a fact about stock number 23 that is unrelated to queries.",
+    "Random note 24: a fact about gadget number 24 that is unrelated to queries.",
+    "Random note 25: a fact about book number 25 that is unrelated to queries.",
+    "Random note 26: a fact about song number 26 that is unrelated to queries.",
+    "Random note 27: a fact about game number 27 that is unrelated to queries.",
+    "Random note 28: a fact about trip number 28 that is unrelated to queries.",
+    "Random note 29: a fact about news number 29 that is unrelated to queries.",
+    "Random note 30: a fact about weather number 30 that is unrelated to queries.",
+    "Random note 31: a fact about movie number 31 that is unrelated to queries.",
+    "Random note 32: a fact about recipe number 32 that is unrelated to queries.",
+    "Random note 33: a fact about stock number 33 that is unrelated to queries.",
+    "Random note 34: a fact about gadget number 34 that is unrelated to queries.",
+    "Random note 35: a fact about book number 35 that is unrelated to queries.",
+    "Random note 36: a fact about song number 36 that is unrelated to queries.",
+    "Random note 37: a fact about game number 37 that is unrelated to queries.",
+    "Random note 38: a fact about trip number 38 that is unrelated to queries.",
+    "Random note 39: a fact about news number 39 that is unrelated to queries.",
+    "Random note 40: a fact about weather number 40 that is unrelated to queries.",
+    "Random note 41: a fact about movie number 41 that is unrelated to queries.",
+    "Random note 42: a fact about recipe number 42 that is unrelated to queries.",
+    "Random note 43: a fact about stock number 43 that is unrelated to queries.",
+    "Random note 44: a fact about gadget number 44 that is unrelated to queries.",
+    "Random note 45: a fact about book number 45 that is unrelated to queries.",
+    "Random note 46: a fact about song number 46 that is unrelated to queries.",
+    "Random note 47: a fact about game number 47 that is unrelated to queries.",
+    "Random note 48: a fact about trip number 48 that is unrelated to queries.",
+    "Random note 49: a fact about news number 49 that is unrelated to queries.",
+    "Random note 50: a fact about weather number 50 that is unrelated to queries.",
+    "Random note 51: a fact about movie number 51 that is unrelated to queries.",
+    "Random note 52: a fact about recipe number 52 that is unrelated to queries.",
+    "Random note 53: a fact about stock number 53 that is unrelated to queries.",
+    "Random note 54: a fact about gadget number 54 that is unrelated to queries.",
+    "Random note 55: a fact about book number 55 that is unrelated to queries.",
+    "Random note 56: a fact about song number 56 that is unrelated to queries.",
+    "Random note 57: a fact about game number 57 that is unrelated to queries.",
+    "Random note 58: a fact about trip number 58 that is unrelated to queries.",
+    "Random note 59: a fact about news number 59 that is unrelated to queries.",
+    "Random note 60: a fact about weather number 60 that is unrelated to queries.",
+    "Random note 61: a fact about movie number 61 that is unrelated to queries.",
+    "Random note 62: a fact about recipe number 62 that is unrelated to queries.",
+    "Random note 63: a fact about stock number 63 that is unrelated to queries.",
+    "Random note 64: a fact about gadget number 64 that is unrelated to queries.",
+    "Random note 65: a fact about book number 65 that is unrelated to queries.",
+    "Random note 66: a fact about song number 66 that is unrelated to queries.",
+    "Random note 67: a fact about game number 67 that is unrelated to queries.",
+    "Random note 68: a fact about trip number 68 that is unrelated to queries.",
+    "Random note 69: a fact about news number 69 that is unrelated to queries.",
+    "Random note 70: a fact about weather number 70 that is unrelated to queries.",
+    "Random note 71: a fact about movie number 71 that is unrelated to queries.",
+    "Random note 72: a fact about recipe number 72 that is unrelated to queries.",
+    "Random note 73: a fact about stock number 73 that is unrelated to queries.",
+    "Random note 74: a fact about gadget number 74 that is unrelated to queries.",
+    "Random note 75: a fact about book number 75 that is unrelated to queries.",
+    "Random note 76: a fact about song number 76 that is unrelated to queries.",
+    "Random note 77: a fact about game number 77 that is unrelated to queries.",
+    "Random note 78: a fact about trip number 78 that is unrelated to queries.",
+    "Random note 79: a fact about news number 79 that is unrelated to queries.",
+    "Random note 80: a fact about weather number 80 that is unrelated to queries.",
+    "Random note 81: a fact about movie number 81 that is unrelated to queries.",
+    "Random note 82: a fact about recipe number 82 that is unrelated to queries.",
+    "Random note 83: a fact about stock number 83 that is unrelated to queries.",
+    "Random note 84: a fact about gadget number 84 that is unrelated to queries.",
+    "Random note 85: a fact about book number 85 that is unrelated to queries.",
+    "Random note 86: a fact about song number 86 that is unrelated to queries.",
+    "Random note 87: a fact about game number 87 that is unrelated to queries.",
+    "Random note 88: a fact about trip number 88 that is unrelated to queries.",
+    "Random note 89: a fact about news number 89 that is unrelated to queries.",
+    "Random note 90: a fact about weather number 90 that is unrelated to queries.",
+    "Random note 91: a fact about movie number 91 that is unrelated to queries.",
+    "Random note 92: a fact about recipe number 92 that is unrelated to queries.",
+    "Random note 93: a fact about stock number 93 that is unrelated to queries.",
+    "Random note 94: a fact about gadget number 94 that is unrelated to queries.",
+    "Random note 95: a fact about book number 95 that is unrelated to queries.",
+    "Random note 96: a fact about song number 96 that is unrelated to queries.",
+    "Random note 97: a fact about game number 97 that is unrelated to queries.",
+    "Random note 98: a fact about trip number 98 that is unrelated to queries.",
+    "Random note 99: a fact about news number 99 that is unrelated to queries."
+  ],
+  "queries": [
+    {
+      "q": "What programming language does Wang Fang use?",
+      "gold": [
+        "Python"
+      ],
+      "anti": [
+        "Go",
+        "React",
+        "Swift"
+      ],
+      "type": "distractor"
+    },
+    {
+      "q": "Which city is Chen Hao based in?",
+      "gold": [
+        "Hangzhou"
+      ],
+      "anti": [
+        "Chengdu",
+        "Beijing"
+      ],
+      "type": "distractor"
+    },
+    {
+      "q": "What team does Zhao Lei work on?",
+      "gold": [
+        "AI team"
+      ],
+      "anti": [
+        "payment",
+        "growth"
+      ],
+      "type": "distractor"
+    },
+    {
+      "q": "What is Wu Gang's specialty?",
+      "gold": [
+        "security"
+      ],
+      "anti": [
+        "backend",
+        "frontend"
+      ],
+      "type": "distractor"
+    },
+    {
+      "q": "Where does the user work now?",
+      "gold": [
+        "BigCorp"
+      ],
+      "anti": [
+        "StartupA",
+        "intern"
+      ],
+      "type": "temporal"
+    },
+    {
+      "q": "What is the user's current salary?",
+      "gold": [
+        "25k"
+      ],
+      "anti": [
+        "10k"
+      ],
+      "type": "temporal"
+    },
+    {
+      "q": "What is the user's housing situation?",
+      "gold": [
+        "house",
+        "suburbs"
+      ],
+      "anti": [
+        "rented",
+        "downtown"
+      ],
+      "type": "temporal"
+    },
+    {
+      "q": "Which company acquired the division the user's manager used to lead?",
+      "gold": [
+        "Oracle"
+      ],
+      "anti": [],
+      "type": "multihop"
+    },
+    {
+      "q": "In which city does the user's mentor teach?",
+      "gold": [
+        "Beijing"
+      ],
+      "anti": [],
+      "type": "multihop"
+    },
+    {
+      "q": "What foods should I avoid serving the user?",
+      "gold": [
+        "peanut",
+        "shellfish"
+      ],
+      "anti": [],
+      "type": "reformulated"
+    },
+    {
+      "q": "When is the user willing to eat?",
+      "gold": [
+        "noon",
+        "8pm"
+      ],
+      "anti": [],
+      "type": "reformulated"
+    },
+    {
+      "q": "What makes the user nervous?",
+      "gold": [
+        "public speaking"
+      ],
+      "anti": [],
+      "type": "reformulated"
+    },
+    {
+      "q": "Can the user communicate in Asian languages?",
+      "gold": [
+        "Mandarin",
+        "Japanese"
+      ],
+      "anti": [],
+      "type": "reformulated"
+    }
+  ],
+  "baseline_by_type": {
+    "distractor": 0.875,
+    "temporal": 0.5,
+    "multihop": 0.5,
+    "reformulated": 1.0
+  },
+  "baseline_overall": 0.7692307692307693
+}

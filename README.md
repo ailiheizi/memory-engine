@@ -2,6 +2,21 @@
 
 给 LLM API（DeepSeek/OpenAI/Claude 等）提供**可编辑记忆 + 可切换性格**的外挂库。纯 Python，可作为库直接 import，或作为独立 HTTP Service 接入任意系统。
 
+## 核心：多增强层协调
+
+不是单一记忆功能，而是 RAG + 矛盾检测 + 图扩展 + query expansion 的**协调组合**。
+关键发现：多增强层 naive 全开会互相干扰，协调后才能真正叠加生效。
+
+| 配置 | OVERALL (硬核评测, baseline难度77%) |
+|------|------|
+| 裸 RAG | 77% |
+| naive 全开(有干扰) | 88% |
+| **协调全开** | **96%** |
+
+> 详见 [docs/EVALUATION.md](docs/EVALUATION.md) — 含每个功能的有效性分级与证据。
+> 诚实说明：大量复用成熟技术(RAG/Hermes信任分/记忆图等)，差异在多层协调；
+> 单一记忆需求直接用 mem0/Zep 更省。
+
 ## 设计(基于实测选型)
 
 ```

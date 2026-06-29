@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "distractor": 0.875,
+    "temporal": 0.5,
+    "multihop": 0.5,
+    "reformulated": 1.0
+  },
+  "conflict": {
+    "distractor": 0.875,
+    "temporal": 0.8333333333333334,
+    "multihop": 0.5,
+    "reformulated": 1.0
+  },
+  "graph": {
+    "distractor": 0.875,
+    "temporal": 0.5,
+    "multihop": 1.0,
+    "reformulated": 1.0
+  }
+}

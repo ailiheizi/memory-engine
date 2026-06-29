@@ -1,0 +1,9 @@
+{
+  "types": {
+    "distractor": 1.0,
+    "temporal": 0.8333333333333334,
+    "multihop": 1.0,
+    "reformulated": 1.0
+  },
+  "overall": 0.9615384615384616
+}
